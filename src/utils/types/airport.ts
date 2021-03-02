@@ -1,7 +1,10 @@
 interface Airport {
   name: string
   iata: string
-  isoCountry: string
+  city: string
+  country: string
+  longitude: number
+  latitude: number
 }
 
 export default Airport

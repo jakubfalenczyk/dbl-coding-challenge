@@ -16,10 +16,10 @@ const Page: NextPage = () => {
       {airports.map(airport => (
         <a href={`/airports/${airport.iata.toLowerCase()}`} key={airport.iata} className='mt-5 flex items-center shadow p-5 border'>
           <div>
-            {airport.name}
+            {airport.name}, {airport.city}
           </div>
           <div className='ml-auto text-mono'>
-            {airport.isoCountry}
+            {airport.country}
           </div>
         </a>
       ))}
