@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Frankfurt",
+    "iata": "FRA",
+    "isoCountry": "DE"
+  },
+  {
+    "name": "Munich",
+    "iata": "MUC",
+    "isoCountry": "DE"
+  },
+  {
+    "name": "Zürich",
+    "iata": "ZRH",
+    "isoCountry": "CH"
+  }
+]
