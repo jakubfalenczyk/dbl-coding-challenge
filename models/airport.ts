@@ -1,4 +1,4 @@
-import airports from '../../../data/airports.json'
+import airports from '../data/airports.json'
 import Airport from '../types/airport'
 
 export const findAirportByIata = async (iata: string): Promise<Airport | undefined> => {

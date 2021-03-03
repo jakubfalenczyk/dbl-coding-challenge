@@ -1,8 +1,8 @@
 import { NextPage } from 'next'
 
-import Layout from '../src/components/layout'
-import useApiData from '../src/utils/hooks/use-api-data'
-import Airport from '../src/utils/types/airport'
+import Layout from '../components/layout'
+import useApiData from '../hooks/use-api-data'
+import Airport from '../types/airport'
 
 const Page: NextPage = () => {
   const airports = useApiData<Airport[]>('/api/airports', [])

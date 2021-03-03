@@ -1,8 +1,8 @@
 import { GetServerSideProps, NextPage } from 'next'
 
-import Layout from '../../src/components/layout'
-import { findAirportByIata } from '../../src/utils/models/airport'
-import Airport from '../../src/utils/types/airport'
+import Layout from '../../components/layout'
+import { findAirportByIata } from '../../models/airport'
+import Airport from '../../types/airport'
 
 interface Props {
   airport: Airport | undefined
